@@ -87,6 +87,7 @@ python conjecture_search.py bounded_growth -10 10 --steps 10 --bound 100
 python conjecture_search.py fast_cycle -10 10 --steps 10
 python export_witnesses.py --output artifacts/witnesses.json
 python polynomial_guess.py --require-collatz-anchors --top 5
+python search_aligned_polynomials.py --require-anchors --top 5
 ```
 
 ## Reproducibility
