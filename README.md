@@ -88,6 +88,7 @@ python conjecture_search.py fast_cycle -10 10 --steps 10
 python export_witnesses.py --output artifacts/witnesses.json
 python polynomial_guess.py --require-collatz-anchors --top 5
 python search_aligned_polynomials.py --require-anchors --top 5
+python collatz_surrogate.py --train-max-n 12 --holdout-end 20
 ```
 
 ## Reproducibility
