@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Collatz Conjecture Map Hunt"
+message: "If you use this repository, please cite it using this metadata."
+type: software
+authors:
+  - family-names: "minksy-ux"
+repository-code: "https://github.com/minksy-ux/-Collatz-conjecture-Map-Hunt-"
+url: "https://github.com/minksy-ux/-Collatz-conjecture-Map-Hunt-"
+license: "MIT"
+keywords:
+  - collatz
+  - dynamical-systems
+  - polynomial-maps
+  - number-theory
+  - iterative-maps
+abstract: >-
+  A research playground for Collatz-inspired polynomial maps, cycle hunting,
+  and falsifiable toy conjectures.
+version: "0.1.0"
+date-released: 2026-07-21
